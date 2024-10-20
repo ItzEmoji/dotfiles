@@ -35,7 +35,7 @@ in
   unstable.neovim
   unstable.ripgrep
   unstable.gcc
-
+  unstable.zellij
   ];
 
   # Home Manager is pretty good at managing dotfiles. The primary way to manage
@@ -55,6 +55,7 @@ in
     ".config/bat".source = dotfiles/bat;
     ".config/alacritty".source = dotfiles/alacritty;
     ".wezterm.lua".source = dotfiles/wezterm;
+    ".config/fastfetch".source = dotfiles/fastfetch;
   };
   # Home Manager can also manage your environment variables through
   # 'home.sessionVariables'. These will be explicitly sourced when using a
