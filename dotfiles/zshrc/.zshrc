@@ -67,6 +67,7 @@ zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
 export EDITOR="/usr/bin/nvim"
 
 # Shell integrations
+eval "$(direnv hook zsh)"
 eval "$(fzf --zsh)"
 eval "$(zoxide init --cmd cd zsh)"
 eval "$(oh-my-posh init zsh --config "~/.config/oh-my-posh/base.toml")"
