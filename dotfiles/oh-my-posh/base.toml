@@ -9,7 +9,7 @@ type = "prompt"
 
 [[blocks.segments]]
 background = "#29315A"
-foreground = "#ffd900"
+foreground = "yellow"
 leading_diamond = ""
 style = "diamond"
 template = "{{ .UserName }}"
@@ -18,7 +18,7 @@ type = "session"
 
 [[blocks.segments]]
 background = "#29315A"
-foreground = "#3EC669"
+foreground = "green"
 leading_diamond = ""
 style = "diamond"
 template = " {{ .Path }}"
@@ -30,7 +30,7 @@ style = "folder"
 
 [[blocks.segments]]
 background = "#29315A"
-foreground = "#43CCEA"
+foreground = "blue"
 leading_diamond = " "
 style = "diamond"
 template = "{{ .HEAD }}"
@@ -134,7 +134,7 @@ discharging_icon = "⇣ "
 
 [[blocks.segments]]
 background = "#29315A"
-foreground = "#ffa600"
+foreground = "lightYellow"
 leading_diamond = ""
 style = "diamond"
 template = "{{ .FormattedMs }}"
@@ -151,7 +151,7 @@ type = "prompt"
 
 [[blocks.segments]]
 background = "#29315A"
-foreground = "#7FD5EA"
+foreground = "blue"
 leading_diamond = ""
 style = "diamond"
 template = "❯"
@@ -161,12 +161,12 @@ type = "text"
 [transient_prompt]
 foreground_templates = [
     "{{if gt .Code 0}}red{{end}}",
-    "{{if eq .Code 0}}'#7FD5EA'{{end}}",
+    "{{if eq .Code 0}}blue{{end}}",
 ]
 background = 'transparent'
 template = '❯ '
 
 [secondary_prompt]
-foreground = '#7FD5EA'
+foreground = 'blue'
 background = 'transparent'
 template = '❯❯ '

@@ -1,4 +1,4 @@
-{ config, pkgs, ... }:
+{ config, pkgs, inputs, ... }:
 
 let
 	unstable = import <unstable> {};
@@ -37,7 +37,9 @@ in
   unstable.gcc
   unstable.zellij
   unstable.lazygit
+  unstable.nixd
   ];
+
 
   # Home Manager is pretty good at managing dotfiles. The primary way to manage
   # plain files is through 'home.file'.
@@ -48,16 +50,17 @@ in
     ".config/waybar".source = dotfiles/waybar;
     ".config/rofi".source = dotfiles/rofi;
     ".config/btop".source = dotfiles/btop;
-    ".config/kitty".source = dotfiles/kitty;
+#    ".config/kitty".source = dotfiles/kitty;
     ".config/zellij".source = dotfiles/zellij;
     ".config/oh-my-posh".source = dotfiles/oh-my-posh;
-    ".config/nvim".source = dotfiles/nvim;
-    ".config/nvim".recursive = true;
+#    ".config/nvim".source = dotfiles/nvim;
+#   ".config/nvim".recursive = true;
     ".config/bat".source = dotfiles/bat;
     ".config/alacritty".source = dotfiles/alacritty;
     ".wezterm.lua".source = dotfiles/wezterm;
     ".config/fastfetch".source = dotfiles/fastfetch;
   };
+
   # Home Manager can also manage your environment variables through
   # 'home.sessionVariables'. These will be explicitly sourced when using a
   # shell provided by Home Manager. If you don't want to manage your shell
