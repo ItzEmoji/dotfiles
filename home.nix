@@ -50,11 +50,11 @@ in
     ".config/waybar".source = dotfiles/waybar;
     ".config/rofi".source = dotfiles/rofi;
     ".config/btop".source = dotfiles/btop;
-#    ".config/kitty".source = dotfiles/kitty;
+    ".config/kitty".source = dotfiles/kitty;
     ".config/zellij".source = dotfiles/zellij;
     ".config/oh-my-posh".source = dotfiles/oh-my-posh;
-#    ".config/nvim".source = dotfiles/nvim;
-#   ".config/nvim".recursive = true;
+    ".config/nvim".source = dotfiles/nvim;
+    ".config/nvim".recursive = true;
     ".config/bat".source = dotfiles/bat;
     ".config/alacritty".source = dotfiles/alacritty;
     ".wezterm.lua".source = dotfiles/wezterm;
