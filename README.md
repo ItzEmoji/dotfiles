@@ -10,6 +10,7 @@ It's a installer that installs my Dotfiles.
 ## Prerequisites
 To use this Script Please Install
 
+xz-utils
 Curl
 ## Installation
 
