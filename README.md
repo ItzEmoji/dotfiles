@@ -17,7 +17,7 @@ Curl
 Install My Dotfiles with Nix
 
 ```bash
-curl -sL hhttps://raw.githubusercontent.com/ItzEmoji/dotfiles/refs/heads/main/install.sh | sh
+curl -sL https://raw.githubusercontent.com/ItzEmoji/dotfiles/refs/heads/main/install.sh | sh
 
 ```
     
