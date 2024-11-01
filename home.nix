@@ -38,6 +38,8 @@ in
   unstable.zellij
   unstable.lazygit
   unstable.nixd
+  unstable.lazygit
+  unstable.q
   ];
 
 
