@@ -29,7 +29,6 @@ in
   lolcat
   figlet
   unstable.fzf
-  unstable.zinit
   unstable.eza
   unstable.bat
   unstable.neovim
@@ -42,7 +41,9 @@ in
   unstable.q
   ];
 
-
+programs.zsh = {
+    enable = true;
+  };
   # Home Manager is pretty good at managing dotfiles. The primary way to manage
   # plain files is through 'home.file'.
   home.file = {
