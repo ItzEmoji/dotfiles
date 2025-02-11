@@ -1,0 +1,179 @@
+clear
+ls
+ls ¦ select name
+ls ¦ detect collums ¦ 
+clear
+l
+ls
+clear
+ps
+clear
+exit
+config env
+clear
+exit
+clear
+exit
+clear
+config nu
+clear
+ls
+ls ¦ get size
+ls
+ls | get size
+ls | get size | convert yaml
+clear
+exit
+config nu
+$EDITOR = nvim
+$env.EDITOR = nvim
+$env.EDITOR
+clear
+exit
+clear
+cd .config/
+cd nushell/
+ls
+config nu
+vim config.nu
+clear
+mkdir ~/.local/share/atuin/<\n>atuin init nu | save ~/.local/share/atuin/init.nu
+config nu
+clear
+vim
+exit
+clear
+vim
+clear
+cd .config/nushell/
+ls
+vim config.nu
+clear
+exit
+clear
+carapace
+exit
+cd .config/nushell/
+ls
+vim config.nu
+vim env.nu
+clear
+exit
+clear
+carapace 
+clear
+cd .config/nushell/
+ls
+vim env.nu
+vim config.nu 
+clear
+exit
+vim .zshrc 
+cd .config/nushell/
+vim config.nu 
+vim env.nu 
+clear
+exit
+clear
+cd .config/nushell/
+ls
+vim env.nu 
+exit
+clear
+ls
+z
+clear
+cd .config/home-manager/
+ls
+vim home.nix 
+v
+zoxide
+clear
+fzf
+clear
+cd ..
+cd nushell/
+ls
+vim env.nu 
+vim config.nu 
+exit
+z
+cd .config
+z Desktop/
+zoxide z
+zoxide Desktop
+clear
+z ..
+zoxide
+clear
+z
+cd .config/nushell/
+exit
+z
+z ..
+z
+config nu
+clear
+exit
+cd Downloads
+z
+cd 
+exit
+cd
+z
+clear
+exit
+z
+z .config
+z nushell/
+ls
+cd
+z nushell
+clear
+exit
+clear
+ls
+clear
+cd ..
+cd ghostty/
+ls
+vim config
+exit
+cd .config/ghostty/
+ls
+vim config
+exit
+cd .config/ghostty/
+vim config
+clear
+exit
+cd .config/ghostty/
+vim config
+exit
+clear
+sudo vim /etc/nixos/configuration.nix 
+sudo nixos-rebuild switch
+sudo vim /etc/nixos/configuration.nix
+sudo nixos-rebuild switch
+sudo nix-collect-garbage
+clear
+sudo nixos-rebuild switch
+sudo vim /etc/nixos/configuration.nix
+sudo nixos-rebuild switch
+sudo vim /etc/nixos/configuration.nix
+sudo nixos-rebuild switch
+clear
+sudo vim /etc/nixos/configuration.nix
+sudo nixos-rebuild switch
+ls
+clear
+cd /boot
+ls
+sudo cd /boot
+sudo cd
+sudo su
+ls
+cd /
+ls
+cd boot
+sudo cd booot
