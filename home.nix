@@ -8,7 +8,7 @@ in
   # manage.
   home.username = "cyril";
   home.homeDirectory = "/home/cyril";
-
+home.enableNixpkgsReleaseCheck = false;
   # This value determines the Home Manager release that your configuration is
   # compatible with. This helps avoid breakage when a new Home Manager release
   # introduces backwards incompatible changes.
@@ -37,8 +37,11 @@ in
   unstable.zellij
   unstable.lazygit
   unstable.nixd
-  unstable.lazygit
   unstable.q
+  unstable.gnumake
+  unstable.unzip
+  unstable.python3
+  unstable.chromium
   ];
 
 programs.zsh = {
