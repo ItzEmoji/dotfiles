@@ -39,6 +39,7 @@ in
     unstable.tmux
     unstable.fastfetch
     unstable.rofi
+    unstable.lua-language-server
   ];
 
   # Manage dotfiles
