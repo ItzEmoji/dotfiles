@@ -17,6 +17,7 @@ in
   # Install packages
   home.packages = with pkgs; [
     unstable.oh-my-posh
+    unstable.chafa
     unstable.atuin
     unstable.zoxide
     unstable.fzf
@@ -40,6 +41,7 @@ in
     unstable.fastfetch
     unstable.rofi
     unstable.lua-language-server
+    unstable.ascii-image-converter
   ];
 
   # Manage dotfiles
