@@ -9,5 +9,6 @@ return {
         toggle = "<leader>gp",
       },
     })
+    require("mini.move").setup()
   end,
 }

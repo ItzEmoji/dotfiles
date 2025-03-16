@@ -2,7 +2,7 @@ return {
   "folke/snacks.nvim",
   priority = 1000,
   lazy = false,
- -- @type snacks.Config
+-- @type snacks.Config
   opts = {
     bigfile = {
       enabled = true
@@ -16,7 +16,10 @@ return {
       },
     },
     explorer = {
-      enabled = true
+      enabled = true,
+      layout = {
+        cycle = false,
+      }
     },
     indent = {
       enabled = true
@@ -129,10 +132,11 @@ return {
     { "<leader>gB", function() Snacks.gitbrowse() end, desc = "Git Browse", mode = { "n", "v" } },
     { "<leader>gg", function() Snacks.lazygit() end, desc = "Lazygit" },
     { "<leader>un", function() Snacks.notifier.hide() end, desc = "Dismiss All Notifications" },
-    { "<leader>tr",      function() Snacks.terminal() end, desc = "Toggle Terminal" },
+    { "<leader>tr", function() Snacks.terminal() end, desc = "Toggle Terminal" },
     { "<c-_>",      function() Snacks.terminal() end, desc = "which_key_ignore" },
     { "]]",         function() Snacks.words.jump(vim.v.count1) end, desc = "Next Reference", mode = { "n", "t" } },
     { "[[",         function() Snacks.words.jump(-vim.v.count1) end, desc = "Prev Reference", mode = { "n", "t" } },
+    { "<leader>th", function() Snacks.picker.colorschemes() end, desc = "Colorschemes" },
     {
       "<leader>N",
       desc = "Neovim News",
