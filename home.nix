@@ -42,6 +42,7 @@ in
     unstable.rofi
     unstable.lua-language-server
     unstable.ascii-image-converter
+    unstable.imagemagick
   ];
 
   # Manage dotfiles

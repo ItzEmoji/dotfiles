@@ -55,7 +55,10 @@ return {
     styles = {
       notification = {
       }
-    }
+    },
+    image = {
+      enabled = true
+    },
   },
   keys = {
     -- Top Pickers & Explorer
