@@ -4,11 +4,7 @@ return {
      require("mini.pairs").setup()
      require('mini.comment').setup()
      require('mini.surround').setup()
-     require("mini.splitjoin").setup({
-       mappings = {
-         toggle = "<leader>gp",
-       },
-     })
+     require("mini.splitjoin").setup({})
      require("mini.move").setup()
    end,
  }
