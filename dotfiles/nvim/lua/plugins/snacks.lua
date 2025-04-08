@@ -22,7 +22,7 @@ return {
     input = { enabled = true },
     notifier = {
       enabled = true,
-      timeout = 3000,
+      timeout = 30000000,
     },
     picker = { enabled = true },
     lazygit = { enabled = true },

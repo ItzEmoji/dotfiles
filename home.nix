@@ -43,6 +43,7 @@ in
     unstable.lua-language-server
     unstable.ascii-image-converter
     unstable.imagemagick
+    unstable.neovim-remote
   ];
 
   # Manage dotfiles
