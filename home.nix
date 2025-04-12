@@ -1,8 +1,5 @@
 { config, pkgs, inputs, ... }:
 
-let
-  unstable = import <unstable> {}; # Import the unstable channel for latest packages
-in
 {
   # Home Manager needs a bit of information about you and the paths it should manage.
   home.username = "cyril";
@@ -16,34 +13,34 @@ in
 
   # Install packages
   home.packages = with pkgs; [
-    unstable.oh-my-posh
-    unstable.chafa
-    unstable.atuin
-    unstable.zoxide
-    unstable.fzf
-    unstable.eza
-    unstable.bat
-    unstable.neovim
-    unstable.ripgrep
-    unstable.gcc
-    unstable.zellij
-    unstable.lazygit
-    unstable.nixd
-    unstable.gnumake
-    unstable.unzip
-    unstable.python3
-    unstable.chromium
-    unstable.carapace
-    lolcat
-    figlet
-    unstable.ocs-url
-    unstable.tmux
-    unstable.fastfetch
-    unstable.rofi
-    unstable.lua-language-server
-    unstable.ascii-image-converter
-    unstable.imagemagick
-    unstable.neovim-remote
+    pkgs.oh-my-posh
+    pkgs.chafa
+    pkgs.atuin
+    pkgs.zoxide
+    pkgs.fzf
+    pkgs.eza
+    pkgs.bat
+    pkgs.neovim
+    pkgs.ripgrep
+    pkgs.gcc
+    pkgs.zellij
+    pkgs.lazygit
+    pkgs.nixd
+    pkgs.gnumake
+    pkgs.unzip
+    pkgs.python3
+    pkgs.chromium
+    pkgs.carapace
+    pkgs.lolcat
+    pkgs.figlet
+    pkgs.ocs-url
+    pkgs.tmux
+    pkgs.fastfetch
+    pkgs.rofi
+    pkgs.lua-language-server
+    pkgs.ascii-image-converter
+    pkgs.imagemagick
+    pkgs.neovim-remote
   ];
 
   # Manage dotfiles

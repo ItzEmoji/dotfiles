@@ -1,8 +1,8 @@
 # Intergrations
 source ~/.oh-my-posh.nu
 source ~/.cache/carapace/init.nu
-source ~/.local/share/atuin/init.nu
 source ~/.zoxide.nu
+source ~/atuin.nu
 
 # Aliases
 alias cd = z
