@@ -41,6 +41,7 @@
     pkgs.ascii-image-converter
     pkgs.imagemagick
     pkgs.neovim-remote
+    pkgs.wezterm
   ];
 
   # Manage dotfiles
@@ -63,6 +64,7 @@
     ".config/alacritty".source = ./dotfiles/alacritty;
     ".wezterm.lua".source = ./dotfiles/wezterm;
     ".config/fastfetch".source = ./dotfiles/fastfetch;
+    ".tmux.conf".source = ./dotfiles/tmux/tmux.conf;
   };
 
   # Environment variables
