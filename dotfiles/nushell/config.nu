@@ -3,7 +3,7 @@ source ~/.config/nushell/scripts/oh-my-posh.nu
 source ~/.config/nushell/scripts/carapace.nu
 source ~/.config/nushell/scripts/zoxide.nu
 source ~/.config/nushell/scripts/atuin.nu
-
+source ~/.config/nushell/scripts/start-ssh-agent.nu
 # Aliases
 alias cd = z
 alias vim = nvim

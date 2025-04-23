@@ -43,7 +43,9 @@
   # Manage dotfiles
   home.file = {
     # Nushell configuration
-    ".config/nushell".source = ./dotfiles/nushell;
+    ".config/nushell/scripts".source = ./dotfiles/nushell/scripts;
+    ".config/nushell/config.nu".source = ./dotfiles/nushell/config.nu;
+    ".config/nushell/env.nu".source = ./dotfiles/nushell/env.nu;
     # Other dotfiles
     ".config/oh-my-posh".source = ./dotfiles/oh-my-posh;
     ".config/atuin".source = ./dotfiles/atuin;
