@@ -1,6 +1,5 @@
 #!/bin/bash
 
-set -euo pipefail
 
 # Configuration
 DOTFILES_REPO="https://github.com/your-username/dotfiles.git" # Replace with your actual dotfiles repo URL
