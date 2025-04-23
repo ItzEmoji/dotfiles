@@ -26,11 +26,11 @@ else
 fi
 
 # Step 3: Source Nix environment
-if [ -f "$HOME/.nix-profile/etc/profile.d/nix.sh" ]; then
-    . "$HOME/.nix-profile/etc/profile.d/nix.sh"
+if [ -f "/nix/var/nix/profiles/default/etc/profile.d/nix-daemon.sh" ]; then
+    . "/nix/var/nix/profiles/default/etc/profile.d/nix-daemon.sh"
     echo "Nix environment sourced."
 else
-    echo "Warning: Nix environment script not found at $HOME/.nix-profile/etc/profile.d/nix.sh"
+    echo "Warning: Nix environment script not found at . /nix/var/nix/profiles/default/etc/profile.d/nix-daemon.sh"
     echo "Attempting to proceed with existing Nix environment."
 fi
 
