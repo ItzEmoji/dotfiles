@@ -1,8 +1,8 @@
 # Intergrations
-source ~/.oh-my-posh.nu
-source ~/.cache/carapace/init.nu
-source ~/.zoxide.nu
-source ~/atuin.nu
+source ~/.config/nushell/scripts/oh-my-posh.nu
+source ~/.config/nushell/scripts/carapace.nu
+source ~/.config/nushell/scripts/zoxide.nu
+source ~/.config/nushell/scripts/atuin.nu
 
 # Aliases
 alias cd = z
