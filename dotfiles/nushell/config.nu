@@ -11,3 +11,5 @@ alias l = ls
 alias ll = ls -l
 alias e = exit
 alias hws = home-manager switch --flake ~/dotfiles#cyril
+alias cat = bat
+alias neofetch = fastfetch
