@@ -39,6 +39,8 @@
     pkgs.imagemagick
     pkgs.neovim-remote
     pkgs.wezterm
+    pkgs.glab
+    pkgs.gh
   ];
 
   # Manage dotfiles
