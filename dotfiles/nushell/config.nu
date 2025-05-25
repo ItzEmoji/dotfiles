@@ -13,3 +13,4 @@ alias e = exit
 alias hws = home-manager switch --flake ~/dotfiles#cyril
 alias cat = bat
 alias neofetch = fastfetch
+alias . = superfile

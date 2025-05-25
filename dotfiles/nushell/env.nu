@@ -5,3 +5,4 @@ if ($env.SSH_CONNECTION? | default "") != "" and ($env.TERM? | default "") == "x
     $env.TERM = "xterm-256color"
 }
 
+$env.EDITOR = 'nvim'
