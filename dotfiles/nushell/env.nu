@@ -6,4 +6,3 @@ if ($env.SSH_CONNECTION? | default "") != "" and ($env.TERM? | default "") == "x
 }
 
 $env.EDITOR = 'nvim'
-$env.XDG_CONFIG_HOME = '~/.config/'
