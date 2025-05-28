@@ -63,7 +63,7 @@
     ".config/alacritty".source = ./dotfiles/alacritty;
     ".wezterm.lua".source = ./dotfiles/wezterm;
     ".config/fastfetch".source = ./dotfiles/fastfetch;
-    ".tmux.conf".source = ./dotfiles/tmux/tmux.conf;
+#     ".tmux.conf".source = ./dotfiles/tmux/tmux.conf;
     ".config/ghostty".source = ./dotfiles/ghostty;
     ".config/superfile".source = ./dotfiles/superfile;
   };
