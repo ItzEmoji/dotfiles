@@ -1,6 +1,6 @@
 # Intergrations
-source ~/.config/nushell/scripts/oh-my-posh.nu
 source ~/.config/nushell/scripts/carapace.nu
+oh-my-posh init nu
 source ~/.config/nushell/scripts/zoxide.nu
 source ~/.config/nushell/scripts/atuin.nu
 source ~/.config/nushell/scripts/start-ssh-agent.nu
