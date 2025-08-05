@@ -1,6 +1,5 @@
 # Intergrations
 source ~/.config/nushell/scripts/carapace.nu
-oh-my-posh init nu
 source ~/.config/nushell/scripts/zoxide.nu
 source ~/.config/nushell/scripts/atuin.nu
 source ~/.config/nushell/scripts/start-ssh-agent.nu
@@ -14,3 +13,6 @@ alias hws = home-manager switch --flake ~/dotfiles#cyril
 alias cat = bat
 alias neofetch = fastfetch
 alias . = superfile
+
+
+oh-my-posh init nu
