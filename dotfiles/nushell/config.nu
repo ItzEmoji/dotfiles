@@ -15,4 +15,3 @@ alias neofetch = fastfetch
 alias . = superfile
 
 
-oh-my-posh init nu
