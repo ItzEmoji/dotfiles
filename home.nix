@@ -56,14 +56,14 @@
     ".config/waybar".source = ./dotfiles/waybar;
     ".config/rofi".source = ./dotfiles/rofi;
     ".config/btop".source = ./dotfiles/btop;
-    ".config/kitty".source = ./dotfiles/kitty;
+  #  ".config/kitty".source = ./dotfiles/kitty;
     ".config/zellij".source = ./dotfiles/zellij;
     ".config/nvim".source = ./dotfiles/nvim;
     ".config/bat".source = ./dotfiles/bat;
     ".config/alacritty".source = ./dotfiles/alacritty;
     ".wezterm.lua".source = ./dotfiles/wezterm;
     ".config/fastfetch".source = ./dotfiles/fastfetch;
-#     ".tmux.conf".source = ./dotfiles/tmux/tmux.conf;
+    ".tmux.conf".source = ./dotfiles/tmux/tmux.conf;
     ".config/ghostty".source = ./dotfiles/ghostty;
     ".config/superfile".source = ./dotfiles/superfile;
   };
