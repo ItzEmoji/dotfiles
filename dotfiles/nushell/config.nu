@@ -14,4 +14,5 @@ alias cat = bat
 alias neofetch = fastfetch
 alias . = superfile
 
-
+# Oh-my-posh
+oh-my-posh init nu --config ~/.config/oh-my-posh/base.toml
