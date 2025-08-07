@@ -12,6 +12,7 @@
     pkgs.oh-my-posh
     pkgs.chafa
     pkgs.atuin
+    pkgs.nushell
     pkgs.zoxide
     pkgs.fzf
     pkgs.eza
