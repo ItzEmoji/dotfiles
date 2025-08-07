@@ -14,6 +14,7 @@
     pkgs.nushell
     pkgs.zoxide
     pkgs.fzf
+    pkgs.atuin
     pkgs.eza
     pkgs.superfile
     pkgs.bat
