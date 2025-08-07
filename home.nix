@@ -11,7 +11,6 @@
   home.packages = with pkgs; [
     pkgs.oh-my-posh
     pkgs.chafa
-    pkgs.atuin
     pkgs.nushell
     pkgs.zoxide
     pkgs.fzf
