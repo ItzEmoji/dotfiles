@@ -9,13 +9,13 @@ use (if not (
 ) { "compat" }) *
 
 $env.ATUIN_SESSION = (random uuid -v 7 | str replace -a "-" "")
-hide-env -o ATUIN_HISTORY_ID
+hide-env -i ATUIN_HISTORY_ID
 
 # Magic token to make sure we don't record commands run by keybindings
 let ATUIN_KEYBINDING_TOKEN = $"# (random uuid)"
 
 let _atuin_pre_execution = {||
-    if ($nu | get -o history-enabled) == false {
+    if ($nu | get -i history-enabled) == false {
         return
     }
     let cmd = (commandline)
@@ -65,9 +65,9 @@ $env.config = (
     $env.config | upsert hooks (
         $env.config.hooks
         | upsert pre_execution (
-            $env.config.hooks | get -o pre_execution | default [] | append $_atuin_pre_execution)
+            $env.config.hooks | get -i pre_execution | default [] | append $_atuin_pre_execution)
         | upsert pre_prompt (
-            $env.config.hooks | get -o pre_prompt | default [] | append $_atuin_pre_prompt)
+            $env.config.hooks | get -i pre_prompt | default [] | append $_atuin_pre_prompt)
     )
 )
 
