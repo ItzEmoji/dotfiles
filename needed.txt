@@ -1,0 +1,8 @@
+fzf
+zoxide
+oh-my-posh
+atuin
+eza
+bat
+nodejs
+npm

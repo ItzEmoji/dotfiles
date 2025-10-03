@@ -1,0 +1,96 @@
+clear
+ls
+cd .config/
+ls
+cd home-manager/
+ls
+cd dotfiles/
+ls
+cd oh-my-posh/
+ls
+cd ..
+ls
+cd zshrc/
+ls
+vim .zshrc
+config env
+$env.EDITOR = nvim
+$env.EDITOR
+config env
+cd ..
+cd dotfiles/
+ls
+cd ..
+cd nushell/
+ls
+vim env.nu
+clear
+vim config.nu
+exit
+ls
+clear
+cd .config/
+ls
+cd nushell/
+ls
+vim env.nu
+vim config.nu
+vim env.nu
+clear
+exit
+nvim ~/.config/home-manager/dotfiles/
+nvim ~/.config/home-manager/home.nix
+home-manager switch
+clear
+carapace
+clear
+cd .config/
+ls
+cd nushell/
+ls
+clear
+vim env.nu
+nvim env.nu
+vim config.nu
+exit
+mkdir ~/.local/share/atuin/
+atuin init nu | save ~/.local/share/atuin/init.nu
+cd .config/nushell/
+ls
+vim config.nu 
+exit
+cd .config/nushell/
+l
+ls
+vim env.nu 
+vim config.nu 
+exit
+clear
+z
+z .config/
+z
+cd ..
+z .config
+config nu
+cd nushell/
+lss
+ls
+vim config.nu 
+exit
+cd 
+cd nushell
+ls
+cd .config/
+ls
+cd nushell
+ls
+vim config.nu
+exit
+l
+ll
+clear
+vim
+cd Downloads/
+cd
+atuin login
+clear
