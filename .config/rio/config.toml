@@ -1,0 +1,71 @@
+
+confirm-before-quit = false
+
+[cursor]
+shape = 'block'
+blinking = true
+# blinking-interval = 800
+[title]
+content = ""
+placeholder = ""
+
+[editor]
+program = "nvim"
+args = []
+[scroll]
+multiplier = 3.0
+divider = 1.0
+
+[window]
+width = 800
+height = 500
+mode = "windowed"
+opacity = 1
+blur = false
+
+[renderer]
+performance = "high"
+backend = "automatic"
+disable-unfocused-render = true
+level = 1
+
+[keyboard]
+use-kitty-keyboard-protocol = false
+disable-ctlseqs-alt = true
+ime-cursor-positioning = true
+
+[fonts]
+family = "JetbrainsMono Nerd Font"
+size = 15
+[shell]
+program = "zsh"
+args = []
+
+[colors]
+cursor = "#C0CAF5"
+background = "#1A1B26"
+foreground = "#C0CAF5"
+
+# Normal colors
+regular0 = "#414868"
+regular1 = "#F7768E"
+regular2 = "#9ECE6A"
+regular3 = "#E0AF68"
+regular4 = "#7AA2F7"
+regular5 = "#BB9AF7"
+regular6 = "#7DCFFF"
+regular7 = "#A9B1D6"
+
+# Bright colors
+bright0 = "#414868"
+bright1 = "#F7768E"
+bright2 = "#9ECE6A"
+bright3 = "#E0AF68"
+bright4 = "#7AA2F7"
+bright5 = "#BB9AF7"
+bright6 = "#7DCFFF"
+bright7 = "#C0CAF5"
+
+
+[platform]
+windows.shell.program = "wsl ~"
