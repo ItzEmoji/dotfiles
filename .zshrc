@@ -62,7 +62,7 @@ export PATH="$HOME/.local/bin:$PATH"
 # Shell integrations
 eval "$(fzf --zsh)"
 eval "$(zoxide init --cmd cd zsh)"
-eval "$(oh-my-posh init zsh --config "~/.config/oh-my-posh/base.toml")"
+eval "$(oh-my-posh init zsh --config "~/.config/oh-my-posh/config.toml)"
 eval "$(atuin init zsh)"
 zstyle ':completion:*' format $'\e[2;37mCompleting %d\e[m'
 source <(carapace _carapace)
