@@ -11,4 +11,3 @@ theme = dofile(color_cache_file)
 -- Environment Variables
 env = hl.env
 env("GTK_THEME", "Nord")
-
