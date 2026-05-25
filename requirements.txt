@@ -6,3 +6,6 @@ eza
 bat
 nodejs
 npm
+noctalia
+quickshell
+
